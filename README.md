@@ -3,20 +3,20 @@
  * @Author: zoeblow
  * @Email: zoeblow@163.com
  * @Date: 2020-09-28 22:42:27
- * @LastEditors: zoeblow
- * @LastEditTime: 2020-09-28 22:54:01
+ * @LastEditors: wangfuyuan
+ * @LastEditTime: 2023-02-23 15:09:32
  * @FilePath: \zoeblow\README.md
 -->
 <h1 align="center">Hi, I'm <a href="https://ifuyuan.wang/"> Fy</a>!</h1>
 <h1 align="center">a 𝑭𝒓𝒐𝒏𝒕-𝒆𝒏𝒅 𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓  </h1>
 
 <p align="center">
-  <strong><a href="https://fuyuan.me">博客</a></strong> |
-  <strong><a href="https://ifuyuan.wang/">About</a></strong>  
+  <strong><a href="https://fuyuan.wang">博客</a></strong> |
+  <strong><a href="https://ifuyuan.wang/">About</a></strong>
 </p>
 <a href="https://ifuyuan.wang"><p align="center"> Visitor count<br> <img src="https://profile-counter.glitch.me/zoeblow/count.svg" /></a>
 
-## [Hello Fy Hello World](https://ifuyuan.wang)
+## [Hello Fy！ Hello World](https://ifuyuan.wang)
 
 <a href="https://ifuyuan.wang"><img src="./img.gif" align="right" height="275" /></a>
 
@@ -67,9 +67,13 @@
 <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" />
 <img alt="MongoDB" src="https://img.shields.io/badge/-MongoDB-13aa52?style=flat-square&logo=mongodb&logoColor=white" />
 
+## My GitHub Contributions
+
+![](https://raw.githubusercontent.com/zoeblow/zoeblow/master/assets/github-contribution-grid-snake.svg)
+
 ## 𝗦𝘁𝗮𝘁𝘀
 
 <p align="left">
-<img alt="ouuan's github stats" height='230' src="https://github-readme-stats.vercel.app/api?username=zoeblow&show_icons=true&include_all_commits=true">
-<img alt="ouuan's github stats" height='230' src="https://github-readme-stats.vercel.app/api/top-langs/?username=zoeblow">
+<img alt="Fuyuan's github stats" height='230' src="https://github-readme-stats.vercel.app/api?username=zoeblow&show_icons=true&include_all_commits=true">
+<img alt="Fuyuan's github stats" height='230' src="https://github-readme-stats.vercel.app/api/top-langs/?username=zoeblow">
 </p>
