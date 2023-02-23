@@ -4,7 +4,7 @@
  * @Email: zoeblow@163.com
  * @Date: 2020-09-28 22:42:27
  * @LastEditors: wangfuyuan
- * @LastEditTime: 2023-02-23 15:09:32
+ * @LastEditTime: 2023-02-23 16:08:23
  * @FilePath: \zoeblow\README.md
 -->
 <h1 align="center">Hi, I'm <a href="https://ifuyuan.wang/"> Fy</a>!</h1>
@@ -75,5 +75,5 @@
 
 <p align="left">
 <img alt="Fuyuan's github stats" height='230' src="https://github-readme-stats.vercel.app/api?username=zoeblow&show_icons=true&include_all_commits=true">
-<img alt="Fuyuan's github stats" height='230' src="https://github-readme-stats.vercel.app/api/top-langs/?username=zoeblow">
+<img alt="Fuyuan's github stats" height='230' src="https://github-readme-stats.vercel.app/api/top-langs/?username=zoeblow&hide=php&langs_count=8&layout=compact">
 </p>
