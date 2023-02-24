@@ -1,17 +1,25 @@
+<!--
+ * @Description:
+ * @Author: wangfuyuan
+ * @Email: wangfuyuan@nnuo.com
+ * @Date: 2023-02-23 16:14:12
+ * @LastEditors: wangfuyuan
+ * @LastEditTime: 2023-02-24 10:29:49
+ * @FilePath: \zoeblow\README.md
+-->
 <h1 align="center">Hi, I'm <a href="https://ifuyuan.wang/"> Fy</a>!</h1>
 <h1 align="center">a 𝑭𝒓𝒐𝒏𝒕-𝒆𝒏𝒅 𝑬𝒏𝒈𝒊𝒏𝒆𝒆𝒓  </h1>
 
 <p align="center">
-  <strong><a href="https://fuyuan.wang">博客</a></strong> |
-  <strong><a href="https://ifuyuan.wang/">About</a></strong>
+  <strong><a href="https://fuyuan.wang" target="_blank">博客</a></strong> |
+  <strong><a href="https://ifuyuan.wang/" target="_blank">About</a></strong>
 </p>
-<a href="https://ifuyuan.wang"><p align="center"> Visitor count<br> <img src="https://profile-counter.glitch.me/zoeblow/count.svg" /></a>
+<a href="https://ifuyuan.wang" target="_blank"><p align="center"> Visitor count<br> <img src="https://profile-counter.glitch.me/zoeblow/count.svg" /></a>
 
 ## [Hello Fy！ Hello World](https://ifuyuan.wang)
 
-<a href="https://ifuyuan.wang"><img src="./img.gif" align="right" height="275" /></a>
+<a href="https://ifuyuan.wang" target="_blank"><img src="./img.gif" align="right" height="275" /></a>
 
-- .
 - .
 - .
 - .
