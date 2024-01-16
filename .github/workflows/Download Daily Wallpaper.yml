@@ -30,11 +30,11 @@ jobs:
           unsplash-wallpaper --featured --search wallpapers --daily --width 1920 --height 1080
           mv -fv wallpaper-photo*.jpg unsplash_wallpaper_1080p.jpg
 
-      - name: Download Bing wallpaper
-        run: |
-          cd ./assets/
-          curl "https://bing.ioliu.cn/v1/rand?w=4096&h=2160" -o "bing_wallpaper_4k.jpg"
-          curl "https://bing.ioliu.cn/v1/rand?w=1920&h=1080" -o "bing_wallpaper_1080p.jpg"
+      # - name: Download Bing wallpaper
+      #   run: |
+      #     cd ./assets/
+      #     curl "https://bing.ioliu.cn/v1/rand?w=4096&h=2160" -o "bing_wallpaper_4k.jpg"
+      #     curl "https://bing.ioliu.cn/v1/rand?w=1920&h=1080" -o "bing_wallpaper_1080p.jpg"
 
       - name: Push to GitHub
         uses: EndBug/add-and-commit@v7
