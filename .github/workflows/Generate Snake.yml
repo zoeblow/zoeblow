@@ -10,21 +10,29 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2.3.4
 
-      - name: Generate Snake
-        uses: Platane/snk@master
+      - uses: actions/checkout@v2
+
+      - uses: Platane/snk@master
         id: snake-gif
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: zoeblow
           gif_out_path: ./assets/github-contribution-grid-snake.gif
           svg_out_path: ./assets/github-contribution-grid-snake.svg
 
-      - name: Push to GitHub
-        uses: EndBug/add-and-commit@v7.2.1
+      - run: git status
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
-          message: 'Generate Contribution Snake'
+          force: true
+
+      - uses: crazy-max/ghaction-github-pages@v2.1.3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
