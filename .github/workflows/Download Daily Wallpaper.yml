@@ -10,34 +10,34 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [20.x]
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-
-      - name: Download Unslpash daily image
-        run: |
-          npm i -g unsplash-wallpaper
-          cd ./assets/
-          unsplash-wallpaper --featured --search wallpapers --daily --width 4096 --height 2160
-          mv -fv wallpaper-photo*.jpg unsplash_wallpaper_4k.jpg
-          unsplash-wallpaper --featured --search wallpapers --daily --width 1920 --height 1080
-          mv -fv wallpaper-photo*.jpg unsplash_wallpaper_1080p.jpg
-
-      # - name: Download Bing wallpaper
+   
+      # - name: Download Unslpash daily image
       #   run: |
+      #     npm i -g unsplash-wallpaper
       #     cd ./assets/
-      #     curl "https://bing.ioliu.cn/v1/rand?w=4096&h=2160" -o "bing_wallpaper_4k.jpg"
-      #     curl "https://bing.ioliu.cn/v1/rand?w=1920&h=1080" -o "bing_wallpaper_1080p.jpg"
-
+      #     unsplash-wallpaper --featured --search wallpapers --daily --width 4096 --height 2160
+      #     mv -fv wallpaper-photo*.jpg unsplash_wallpaper_4k.jpg
+      #     unsplash-wallpaper --featured --search wallpapers --daily --width 1920 --height 1080
+      #     mv -fv wallpaper-photo*.jpg unsplash_wallpaper_1080p.jpg
+          
+      - name: Download Bing wallpaper
+        run: |
+          cd ./assets/
+          wget "https://bingw.jasonzeng.dev/?resolution=UHD" -O "bing_wallpaper_4k.jpg"
+          wget "https://bingw.jasonzeng.dev/?resolution=1920x1080" -O "bing_wallpaper_1080p.jpg"
+          
       - name: Push to GitHub
-        uses: EndBug/add-and-commit@v7
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          branch: master
-          message: 'Download Daily Wallpaper'
+          commit_message:: 'Download Daily Wallpaper'
+          branch: main
