@@ -11,16 +11,18 @@
 
 <a href="https://ifuyuan.wang" target="_blank"><img src="./img.gif" align="right" height="275" /></a>
 
+- 《Hello World》
+- . 每个人
+- . 都是
+- . 一个盒子
 - .
+- . 盒子里
+- . 装着
+- . 一个世界
 - .
+- . hello , world !
 - .
-- .
-- .
-- .
-- .
-- .
-- .
-- .
+- . 你好，世界！
 - .
 
 ## 𝗠𝘆 𝗧𝗲𝗰𝗸 𝗦𝘁𝗮𝗰𝗸
@@ -47,7 +49,6 @@
 
 ![Nodejs](https://img.shields.io/badge/-Nodejs-43853d?style=flat-square&logo=Node.js&logoColor=white)
 <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white" />
-<img alt="Sass" src="https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white" />
 <img alt="Styled Components" src="https://img.shields.io/badge/-Styled_Components-db7092?style=flat-square&logo=styled-components&logoColor=white" />
 
 ![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff)
@@ -61,7 +62,7 @@
 
 ![](https://raw.githubusercontent.com/zoeblow/zoeblow/master/assets/github-contribution-grid-snake.svg)
 
-## 𝗦𝘁𝗮𝘁𝘀
+## GitHub Stats
 
 <p align="left">
 <img alt="Fuyuan's github stats" height='230' src="https://github-readme-stats.vercel.app/api?username=zoeblow&show_icons=true&include_all_commits=true">
