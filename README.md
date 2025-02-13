@@ -68,3 +68,4 @@
 <img alt="Fuyuan's github stats" height='230' src="https://github-readme-stats.vercel.app/api?username=zoeblow&show_icons=true&include_all_commits=true">
 <img alt="Fuyuan's github stats" height='230' src="https://github-readme-stats.vercel.app/api/top-langs/?username=zoeblow&hide=php">
 </p>
+![Metrics](/github-metrics.svg)
