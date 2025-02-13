@@ -15,7 +15,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           config_timezone: Asia/Shanghai
-          token: ${{ secrets.PERSONAL_PROFILE }}
+          token: ${{ secrets.picx-image }}
           plugin_languages: yes
           plugin_languages_ignored: html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell, gnuplot
           plugin_isocalendar: yes
