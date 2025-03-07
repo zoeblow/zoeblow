@@ -12,6 +12,7 @@
 <a href="https://ifuyuan.wang" target="_blank"><img src="./img.gif" align="right" height="275" /></a>
 
 - 《Hello World》
+- .
 - . 每个人
 - . 都是
 - . 一个盒子
@@ -23,7 +24,6 @@
 - . hello , world !
 - .
 - . 你好，世界！
-- .
 
 ## 𝗠𝘆 𝗧𝗲𝗰𝗸 𝗦𝘁𝗮𝗰𝗸
 
