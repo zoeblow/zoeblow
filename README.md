@@ -5,7 +5,7 @@
   <strong><a href="https://fuyuan.wang" target="_blank">博客</a></strong> |
   <strong><a href="https://ifuyuan.wang/" target="_blank">About</a></strong>
 </p>
-<a href="https://ifuyuan.wang" target="_blank"><p align="center"> Visitor count<br> <img src="https://profile-counter.glitch.me/zoeblow/count.svg" /></a>
+<a href="https://ifuyuan.wang" target="_blank"><p align="center"> Visitor count<br> <img src="[https://profile-counter.glitch.me/zoeblow/count.svg](https://count.getloli.com/@zoeblow?name=zoeblow&theme=e621&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto)" /></a>
 
 ## [Hello Fy！ Hello World](https://ifuyuan.wang)
 
